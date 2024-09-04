@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.banner-background
+{
+    background-image:url("young-student-working-assignment.jpg");
+    height:100vh;
+    background-size:cover;
+}
+#span-heading
+{
+    color:orange;
+    font-size:40px;
+    font-weight:bold;
+    font-style:normal;
+    font-family:"Lobster"!important;
+}
+#span-subhead
+{
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+    font-style:italic;
+    font-family:"play fair display";
+}
+#navItem1
+{
+    color:black;
+    font-weight:bold;
+}
+#navItem1:hover
+{
+    color:orange;
+    font-weight:bold;
+}
+#navItem2:hover
+{
+    color:orange;
+}
+#navItem2
+{
+    color:black;
+    font-weight:bold;
+}
+#navItem2:hover{
+    color:orange;
+}
+#navbarDropdown
+{
+    color:black;
+    font-weight:bold !important;
+}
+#navbarDropdown:hover
+{
+    color:orange;
+}
+#navItem4
+{
+    color:black;
+    font-weight:bold;
+}
+#navItem4:hover
+{
+    color:orange;
+}
+.banner-heading-1
+{
+    color:orange;
+    font-size:20px;
+    font-weight:bold;
+}
+.banner-heading-2
+{
+    color:#ffffff;
+    font-size:45px;
+    font-weight:bold;
+
+}
+.banner-para
+{
+    color:#ffffff;
+    font-weight:lighter;
+    font-size:20px;
+}
+.main-heading-1
+{
+    color:orangered;
+    font-size:30px;
+    font-weight:700;
+    font-family:"Roboto";
+}
+.info
+{
+    color:black;
+    font-size:20px;
+}
+.box
+{
+    border-radius:2px;
+    height:100px;
+}
+.box1
+{
+    border-radius:2px;
+    height:250px;
+}
+.box1:hover
+{
+   background-color:orange;
+}
+.icon
+{
+    width:120px;
+    height:100px;
+}
+.box:hover{
+    background-color:orange;
+}
+.abt-heading-1
+{
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+}
+.abt-heading-2
+{
+    color:orangered;
+    font-size:30px;
+}
+.image-1
+{
+    width:95%;
+    height:85%
+}
+.icon-2
+{
+    width:80px;
+    height:60px;
+}
+.icon-3
+{
+    width:100px;
+    height:70px;
+}
+
+.explore-bg
+{
+    background-color:#D6EFD8;
+}
+.image-2
+{
+    width:300px;
+    height:85%;
+}
+.explore-heading
+{
+    color:orangered;
+    font-size:35px;
+    font-weight:bold;
+
+}
+
+.image-3
+{
+    width:100%;
+    height:200px;
+}
+.con
+{
+    width:1000px;
+    padding:10px;
+    min-height:400px;
+}
+.container
+{
+    width:100%;
+    height:500px;
+}
+.logo
+{
+    width:100px;
+    height:100px;
+}
+span{
+    color:blue;
+}
+.background
+{
+    background-color: black;
+}
+.heading
+{
+    color:#ffffff;
+    font-size:25px;
+    font-weight:500;
+}
+.sub-head
+{
+    color:#ffffff;
+}
+.icon-2{
+    color:#ffffff;
+    height:30px;
+    width:30px;
+}
+.icon2-container
+{
+    background-color:orange;
+    color:#ffffff;
+    padding:10px;
+    border-radius:34px;
+}
+.icon3-container
+{
+    background-color:orange;
+    color:#ffffff;
+    width:100px;
+    height:70px;
+}
+.gif
+{
+    height:400px;
+}
+.abt-heading-3
+{
+  color:#131842;
+  font-family:"Roboto";
+  font-weight:600;
+  font-size:25px;
+  padding:5px;
+}
+.abt-des
+{
+    font-size:20px;
+    padding:5px;
+}
+
+.login-container
+{
+    height:450px;
+    width:500px;
+}
+.icon-container
+{
+    width:50px;
+    height:50px;
+    background-color:orange;
+}
+.test-image
+{
+    width:150px;
+    height:150px;
+}
+
+

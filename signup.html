@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/900a29d0e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+        .background-image {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            background: url('young-student-working-assignment.jpg') no-repeat center center;
+            background-size: cover;
+            margin-bottom:10px;
+        }
+
+        .background-image::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.2); /* Change color and opacity as needed */
+        }
+    </style>
+</head>
+<body>
+    <!-- nav-bar-starting -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" id="span-subhead"><span id="span-heading">E</span>Tech</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" id="navItem1">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" id="navItem2">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="courses.html" id="navItem2">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="testimonials.html" id="navItem2">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" id="navItem4">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html" id="navItem4"><i class="fa-solid fa-user"></i></a>
+        </li>
+      </ul>  
+    </div>
+  </nav>
+  <!-- nav-bar-ending -->
+
+  <div class="background-image">
+    <div class="d-flex flex-row justify-content-center">
+      <h1 class="text-center mt-5 pt-5" style="color:#ffffff;font-size:60px;font-weight:bold;">Sign Up</h1>
+    </div>
+  </div>
+
+   <!-- signup form -->
+   <div class="shadow login-container m-auto mt-4 pt-1">
+    <h1 class="text-center">Sign Up</h1>
+    <div class="m-auto d-flex flex-row justify-content-center pt-4">
+      <input type="text" style="width:400px;height:45px;" placeholder="Username">
+    </div>
+    <div class="m-auto d-flex flex-row justify-content-center pt-4">
+      <input type="text" style="width:400px;height:45px;" placeholder="Email Address">
+    </div>
+    <div class="m-auto d-flex flex-row justify-content-center pt-3">
+      <input type="password" style="width:400px;height:45px;" placeholder="Password">
+    </div>
+    <div class="text-center pt-3 pb-3">
+      <a href="login.html" class="text-center"><span class="text-center">Forgot Password?</span></a>
+    </div>
+    <div class="text-center pb-2">
+      <button style="width:400px;height:45px;color:white;" class="btn btn-warning">Sign Up</button>
+    </div>
+    <div class="text-center pt-2 ">
+      <h6>Already have an account <a href="login.html"><span>Login</span></a></h6>
+    </div>
+  </div>
+  <!-- signup form ending -->
+
+  <!-- footer section -->
+  <div class="background mt-5" id="footerSection">
+    <div class="background-1 mr-3 ml-3">
+      <div class="footer-section d-flex flex-row justify-content-between">
+        <div class="d-flex flex-column pt-4 pb-4 text-left mr-5 ml-5">
+          <h1 class="heading">Links</h1>
+          <a href="#homeSection" class="sub-head">Home</a>
+          <a href="#aboutSection" class="sub-head">About Us</a>
+          <a href="#serviceSection" class="sub-head">Courses</a>
+          <a href="#portfolioSection" class="sub-head">Contact Us</a>
+        </div>
+        <div class="d-flex flex-column pt-4 pb-4 text-left mr-5 ml-5">
+          <h1 class="heading">Services</h1>
+          <a href="web.html" class="button-1 sub-head">Web Development</a>
+          <a href="app.html" class="button-1 sub-head">Python Programming</a>
+          <a href="digital.html" class="button-1 sub-head">Java Programming</a>
+          <a href="graphic.html" class="button-1 sub-head">AWS for Beginners</a>
+          <a href="software.html" class="button-1 sub-head">Microsoft Azure for Beginners</a>
+          <a href="book.html" class="button-1 sub-head">C++ Programming</a>
+        </div>
+        <div class="d-flex flex-column pt-4 pb-4 text-left mr-5 ml-5">
+          <h1 class="heading">Contact Us</h1>
+          <p class="sub-head">Noida:- H-15 Office No.305 SBI Business<br/>Park, Sector 63 Noida</p>
+          <p class="sub-head">Vizag:- 3A-Second Floor, Opp: Hotel<br/>Meghalaya,Vizag Towers,Asilmetta,<br/>Visakhapatanam, Andhrapradesh-<br/>530008</p>
+          <p class="sub-head">Phone: 8233739281</p>
+        </div>  
+        <div class="d-flex flex-column pt-4 pb-4 text-left mr-5 ml-1">
+          <div class="background- ml-1 mr-1 text-center">
+            <a href="#sectionContactUs" class="heading text-center" style="font-size:25px;color:white;font-weight:500;">Social Media</a>
+            <div class="d-flex flex-row justify-content-center">
+              <div class="d-flex flex-column mr-1 icon2-container">
+                <div class="text-center">
+                  <img src="telephone_126523 (1).png" class="icon-2 p-10">
+                </div>  
+              </div>
+              <div class="d-flex flex-column mr-2 icon2-container">
+                <div class="text-center">
+                   <img src="instagram-logo_87390.png" class="icon-2">
+                </div>
+              </div>
+              <div class="d-flex flex-column mr-2 icon2-container">
+                <div class="text-center">
+                  <img src="social_49043.png" class="icon-2"> 
+                </div>  
+              </div>
+              <div class="d-flex flex-column icon2-container">
+                <div class="text-center">
+                  <img src="envelope_3916631.png" class="icon-2">               
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- footer ending -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const signupButton = document.querySelector('.btn-warning');
+    
+    signupButton.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        const username = document.querySelector('input[placeholder="Username"]').value;
+        const email = document.querySelector('input[placeholder="Email Address"]').value;
+        const password = document.querySelector('input[placeholder="Password"]').value;
+        
+        // Clear previous error messages
+        const errorMessage = document.querySelector('.error-message');
+        if (errorMessage) {
+            errorMessage.remove();
+        }
+
+        // Basic validation
+        if (username === '' || email === '' || password === '') {
+            showError('Please fill in all fields.');
+            return;
+        }
+
+        if (!validateEmail(email)) {
+            showError('Please enter a valid email address.');
+            return;
+        }
+
+        alert('Sign Up successful!');
+        // Here you can add further actions, like sending the data to a server
+    });
+
+    function showError(message) {
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'error-message';
+        errorDiv.textContent = message;
+        const formContainer = document.querySelector('.login-container');
+        formContainer.insertBefore(errorDiv, formContainer.firstChild);
+    }
+
+    function validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    }
+});
+
+  </script>
+    
+</body>
+</html>
